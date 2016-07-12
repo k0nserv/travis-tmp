@@ -1,3 +1,4 @@
 script:
   - echo "Hello"
+  - echo $TRAVIS_PULL_REQUEST
   - true
