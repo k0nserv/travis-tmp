@@ -1,0 +1,4 @@
+language: ruby
+script:
+  - bundle exec danger
+  - echo $TRAVIS_PULL_REQUEST
